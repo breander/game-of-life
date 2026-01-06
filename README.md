@@ -38,7 +38,7 @@ This project requires the Allegro5 game programming library and its addons:
 
 On Ubuntu/Debian:
 ```bash
-sudo apt-get install liballegro5-dev liballegro5-2 liballegro-ttf5-dev liballegro-primitives5-dev liballegro-color5-dev
+sudo apt-get install liballegro5-dev liballegro5-2 liballegro-ttf5-dev liballegro-primitives5-dev
 ```
 
 On macOS (using Homebrew):
@@ -130,9 +130,9 @@ The simulation divides the screen into a grid of blocks (default 8x8 pixels each
 - **Language**: C++ (C++14 standard)
 - **Graphics Library**: Allegro5
 - **Grid Size**: Calculated dynamically based on window size and block size
-- **Initial State**: Randomly generated (50% alive cells)
+- **Initial State**: Randomly generated (approximately 50% alive cells)
 - **Color Coding**: 
-  - White: Live cells that maintained their state
+  - White: Live cells
   - Red: Cells that changed state in the current generation
   - Black: Dead cells (background)
 
