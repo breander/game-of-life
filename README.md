@@ -38,7 +38,7 @@ This project requires the Allegro5 game programming library and its addons:
 
 On Ubuntu/Debian:
 ```bash
-sudo apt-get install liballegro5-dev liballegro5-2 liballegro-ttf5-dev liballegro-primitives5-dev
+sudo apt-get install liballegro5-dev liballegro5-2 liballegro-ttf5-dev liballegro-primitives5-dev liballegro-color5-dev
 ```
 
 On macOS (using Homebrew):
