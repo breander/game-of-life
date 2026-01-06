@@ -19,7 +19,7 @@ The simulation follows the classic Conway's Game of Life rules:
 - Real-time visualization with configurable display settings
 - Randomly generated initial patterns
 - FPS counter display
-- Cells that change state are highlighted in red
+- Cells that became alive are highlighted in red
 - Live cells are displayed in white
 - Configurable window size, FPS, and cell block size
 
@@ -132,8 +132,8 @@ The simulation divides the screen into a grid of blocks (default 8x8 pixels each
 - **Grid Size**: Calculated dynamically based on window size and block size
 - **Initial State**: Randomly generated (approximately 50% alive cells)
 - **Color Coding**: 
-  - White: Live cells
-  - Red: Cells that changed state in the current generation
+  - White: Live cells that maintained their alive state
+  - Red: Cells that became alive in the current generation
   - Black: Dead cells (background)
 
 ## License
